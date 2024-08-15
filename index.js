@@ -1,9 +1,9 @@
 const sessionName = "dreaded1";
 const antiforeign = process.env.ANTIFOREIGN || 'TRUE';
 const autobio = process.env.AUTOBIO || 'TRUE';
-let botname = process.env.BOTNAME || '𝐑𝐀𝐕𝐄𝐍-𝐀𝐈';
+let botname = process.env.BOTNAME || 'ETERNAL-BLUE';
 
-const owner = process.env.DEV || '254114660061'; // This will send a notification once the bot reconnects
+const owner = process.env.DEV || '254704706667'; // This will send a notification once the bot reconnects
 const {
   default: dreadedConnect,
   useMultiFileAuthState,
@@ -176,7 +176,7 @@ if (autobio === 'TRUE'){
 
                          client.updateProfileStatus( 
 
-                                         ` 𝐑𝐄𝐌𝐄𝐌𝐁𝐄𝐑 𝐓𝐇𝐀𝐓 𝐘𝐎𝐔 𝐀𝐑𝐄 𝐍𝐎𝐓 𝐋𝐈𝐌𝐈𝐓𝐄𝐃,,\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
+                                         ` 𝐑𝐄𝐌𝐄𝐌𝐁𝐄𝐑 𝐓𝐇𝐀𝐓 NO ONE IS 𝐋𝐈𝐌𝐈𝐓𝐄𝐃,,\n\n${date.toLocaleString('en-US', { timeZone: 'Africa/Nairobi' })} It's a ${date.toLocaleString('en-US', { weekday: 'long', timeZone: 'Africa/Nairobi'})}.` 
 
                                  ) 
 
